@@ -15,7 +15,7 @@ OpenGeoDT 팀
 =======
 Validator-v1.0 프로젝트와의 차이점은 Spring 라이브러리 -> 전자정부 라이브러리 변경적용한 것 밖에 없습니다.
 그 외에 모든 내용은 Validator-v1.0과 동일하며 아래 URL의 README를 참고하시면 됩니다.
-https://github.com/ODTBuilder/Validator-v1.0
+<br>https://github.com/ODTBuilder/Validator-v1.0
 
 내용, 사용라이브러리, 라이센스 등 모든 내용은 Validator-v1.0을 따.
 
