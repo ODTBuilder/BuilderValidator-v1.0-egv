@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+    	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+    	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+
+	<!-- <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+
+	<tx:advice id="txAdvice" transaction-manager="txManager">
+		<tx:attributes>
+			<tx:method name="*" rollback-for="Exception"/>
+		</tx:attributes>
+	</tx:advice>
+
+	<aop:config>
+		<aop:pointcut id="requiredTx" expression="execution(* egovframework.example.sample..impl.*Impl.*(..))"/>
+		<aop:advisor advice-ref="txAdvice" pointcut-ref="requiredTx" />
+	</aop:config>
+ -->
+
+
+	<!-- 추가 -->
+	<tx:advice id="txAdvice" transaction-manager="adminTransactionManager">
+		<tx:attributes>
+			<tx:method name="*" rollback-for="Exception" />
+			<!-- <tx:method name="insert*" rollback-for="Exception" /> <tx:method 
+				name="create*" rollback-for="Exception" /> <tx:method name="update*" rollback-for="Exception" 
+				/> <tx:method name="drop*" rollback-for="Exception" /> -->
+		</tx:attributes>
+	</tx:advice>
+
+	<aop:config proxy-target-class="true">
+		<!-- <aop:pointcut id="serviceOperation" expression="execution(* com.git.opengds..*.*(..))" 
+			/> -->
+		<!-- <aop:pointcut id="serviceOperation" expression="execution(* com.git.opengds.file.*.service.*Service.*(a..))"/> -->
+		<aop:pointcut id="serviceOperation"
+			expression="execution(* com.git.opengds.file.*.service.*DBManagerServiceImpl.*(..))||
+	    												execution(* com.git.opengds.editor.service.*DBManagerServiceImpl.*(..))" />
+		<!-- <aop:pointcut id="serviceOperation" expression="excution(* com.project.service.service..*.*(..))"/> -->
+
+
+		<aop:advisor id="transactionAdvisor" pointcut-ref="serviceOperation"
+			advice-ref="txAdvice" />
+	</aop:config>
+	
+	
+	
+	<aop:config proxy-target-class="true">
+		<aop:pointcut id="userServiceOperation"
+			expression="execution(* com.git.opengds.file.*.service.*DBManagerServiceImpl.*(..))||
+	    												execution(* com.git.opengds.editor.service.*DBManagerServiceImpl.*(..))" />
+		<aop:advisor id="userTransactionAdvisor" pointcut-ref="userServiceOperation"
+			advice-ref="txAdviceUser" />
+	</aop:config>
+
+	<tx:advice id="txAdviceUser" transaction-manager="userTransactionManager">
+		<tx:attributes>
+			<tx:method name="*" rollback-for="Exception" />
+		</tx:attributes>
+	</tx:advice>
+	
+	
+	
+</beans>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+	<!-- SqlSession setup for MyBatis Database Layer -->
+<!-- 	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="configLocation" value="classpath:/egovframework/sqlmap/example/sql-mapper-config.xml" />
+		<property name="mapperLocations" value="classpath:/egovframework/sqlmap/example/mappers/*.xml" />
+	</bean> -->
+	
+<!-- 	추가 -->
+	<!-- SqlSessionFactoryBean 생성 -->
+	<bean id="adminSqlSession" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<!-- mybatis-config.xml 파일이 스프링이 동작할 때 같이 동작하도록 설정한 것. -->
+		<property name="configLocation" value="classpath:/egovframework/sqlmap/example/sql-mapper-config.xml"></property>
+		<property name="dataSource" ref="adminDataSource"></property>
+		<property name="mapperLocations" value="classpath:/mappers/**/*.xml"></property>
+	</bean>
+	
+	
+	
+	<!-- SqlSessionFactoryBean 생성 -->
+	<bean id="userSqlSession" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<!-- mybatis-config.xml 파일이 스프링이 동작할 때 같이 동작하도록 설정한 것. -->
+		<property name="configLocation" value="classpath:egovframework/sqlmap/example/sql-mapper-config.xml"></property>
+		<property name="dataSource" ref="userDataSource"></property>
+		<property name="mapperLocations" value="classpath:mappers/**/*.xml"></property>
+	</bean>
+	
+
+	<!-- MapperConfigurer setup for MyBatis Database Layer with @Mapper("deptMapper") in DeptMapper Interface -->
+ 	<bean class="egovframework.rte.psl.dataaccess.mapper.MapperConfigurer">
+		<property name="basePackage" value="com.git.opengds.user.persistent" />
+	</bean>
+	
+    
+</beans>
