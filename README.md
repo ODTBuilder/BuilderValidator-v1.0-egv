@@ -6,10 +6,10 @@
 
 BuilderValidator-v1.0-egv<br>(공간자료 검수편집도구 v1.0 전자정부프레임워크 기반)
 =======
-
+<p align="center"><img src="https://user-images.githubusercontent.com/13480171/50678152-b14bd880-1040-11e9-8ead-cf99ca1d4579.PNG" width="30%"> </p>
 - 이 프로젝트는 [Validator v1.0](https://github.com/ODTBuilder/Validator-v1.0)의 전자정부 호환성인증 버전입니다.<br>
 - Web기반의 공간정보 검수편집을 지원하며 전자정부 표준프레임워크 3.7에 대한 호환(레벨2)성 인증을 받았습니다.<br>
-<p align="center"><img src="https://user-images.githubusercontent.com/13480171/50678152-b14bd880-1040-11e9-8ead-cf99ca1d4579.PNG" width="30%"> </p>
+
 
 
 
