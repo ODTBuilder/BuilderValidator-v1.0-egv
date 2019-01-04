@@ -6,7 +6,7 @@ BuilderValidator-v1.0-egv <br>(공간자료 검수편집도구 v1.0 전자정부
 해당프로젝트는 Web기반의 공간정보 검수편집을 지원하며 전자정부 표준프레임워크 3.7에 대한 호환(레벨2)성 인증을 받았습니다.
 
 ## 공간정보 검수편집도구 v1.0 아키텍처
-<p align="center"><img src="https://user-images.githubusercontent.com/13480171/50677303-73e54c00-103c-11e9-91b9-180f9d7f333e.png" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/13480171/50677303-73e54c00-103c-11e9-91b9-180f9d7f333e.png" width="75%"></p>
 
 
 Validator-v1.0의 전자정부프레임워크 적용 프로젝트 입니다.<br>
