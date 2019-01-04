@@ -43,7 +43,7 @@ BuilderValidator-v1.0-egv<br>(공간자료 검수편집도구 v1.0 전자정부�
 
 자세한내용은 [OpenGDS(Builder-Validator) 전자정부 호환성 연동가이드](https://github.com/ODTBuilder/BuilderValidator-v1.0-egv/blob/master/OpenGDS(Builder-Validator)%20%EC%A0%84%EC%9E%90%EC%A0%95%EB%B6%80%20%ED%98%B8%ED%99%98%EC%84%B1%20%EC%97%B0%EB%8F%99%EA%B0%80%EC%9D%B4%EB%93%9C%20.pdf) 을 참조하십시오.
 
-### 4. 사용 라이브러리 ###
+## 4. 사용 라이브러리
 1. jQuery 2.2.2 (MIT License, CC0) http://jquery.com/
 2. jQuery UI 1.11.4 (MIT License & GPL License, this case MIT License), start theme. http://jqueryui.com/
 3. GeoTools 16.5 (LGPL) http://www.geotools.org/
