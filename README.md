@@ -11,7 +11,7 @@ BuilderValidator-v1.0-egv<br>(공간자료 검수편집도구 v1.0 전자정부�
 <p align="center"><img src="https://user-images.githubusercontent.com/13480171/50678152-b14bd880-1040-11e9-8ead-cf99ca1d4579.PNG" width="30%"> </p>
 
 ## Architecture
-<p align="center"><img src="https://user-images.githubusercontent.com/13480171/50677303-73e54c00-103c-11e9-91b9-180f9d7f333e.png" width="70%"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/13480171/50677303-73e54c00-103c-11e9-91b9-180f9d7f333e.png" width="70%"></p><br>
 
 ## Getting Started
 ### 1. 환경 ###
