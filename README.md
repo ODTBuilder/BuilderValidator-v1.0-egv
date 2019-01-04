@@ -15,7 +15,7 @@ BuilderValidator-v1.0-egv<br>(공간자료 검수편집도구 v1.0 전자정부�
 ## 1. 연구기관
 - 세부 책임 : 부산대학교 <link>http://www.pusan.ac.kr/<br>
 - 연구 책임 : 국토연구원 <link>http://www.krihs.re.kr/
-- 본 성과물 연구 기관 : 공간정보기술(주) <link>http://www.git.co.kr/
+- 본 성과물 연구 기관 : 공간정보기술(주) <link>http://www.git.co.kr/<br>
 
 ## 2. Architecture
 <p align="center"><img src="https://user-images.githubusercontent.com/13480171/50677303-73e54c00-103c-11e9-91b9-180f9d7f333e.png" width="65%"></p><br>
@@ -41,7 +41,7 @@ BuilderValidator-v1.0-egv<br>(공간자료 검수편집도구 v1.0 전자정부�
 - 프로젝트 설정<br>
 - Maven 설정 및 빌드<br>
 
-자세한내용은 [OpenGDS(Builder-Validator) 전자정부 호환성 연동가이드](https://github.com/ODTBuilder/BuilderValidator-v1.0-egv/blob/master/OpenGDS(Builder-Validator)%20%EC%A0%84%EC%9E%90%EC%A0%95%EB%B6%80%20%ED%98%B8%ED%99%98%EC%84%B1%20%EC%97%B0%EB%8F%99%EA%B0%80%EC%9D%B4%EB%93%9C%20.pdf) 을 참조하십시오.
+자세한내용은 [OpenGDS(Builder-Validator) 전자정부 호환성 연동가이드](https://github.com/ODTBuilder/BuilderValidator-v1.0-egv/blob/master/OpenGDS(Builder-Validator)%20%EC%A0%84%EC%9E%90%EC%A0%95%EB%B6%80%20%ED%98%B8%ED%99%98%EC%84%B1%20%EC%97%B0%EB%8F%99%EA%B0%80%EC%9D%B4%EB%93%9C%20.pdf) 을 참조하십시오.<br>
 
 ## 4. 사용 라이브러리
 1. jQuery 2.2.2 (MIT License, CC0) http://jquery.com/
@@ -55,7 +55,7 @@ BuilderValidator-v1.0-egv<br>(공간자료 검수편집도구 v1.0 전자정부�
 9. Spectrum 1.8.0 (MIT) http://numeraljs.com/
 10. Bootstrap v3.3.2 (MIT) http://getbootstrap.com
 11. JSTS (EPL) http://bjornharrtell.github.io/jsts/
-
+<br>
 ## 5. Mail
 
 Developer : SG.LEE
