@@ -15,7 +15,7 @@ BuilderValidator-v1.0-egv<br>(공간자료 검수편집도구 v1.0 전자정부�
 ## 1. 연구기관
 - 세부 책임 : 부산대학교 <link>http://www.pusan.ac.kr/<br>
 - 연구 책임 : 국토연구원 <link>http://www.krihs.re.kr/
-- 
+- 본 성과물 연구 기관 : 공간정보기술(주) <link>http://www.git.co.kr/
 
 ## 2. Architecture
 <p align="center"><img src="https://user-images.githubusercontent.com/13480171/50677303-73e54c00-103c-11e9-91b9-180f9d7f333e.png" width="65%"></p><br>
