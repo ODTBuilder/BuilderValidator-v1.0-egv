@@ -29,9 +29,13 @@ BuilderValidator-v1.0-egv<br>(공간자료 검수편집도구 v1.0 전자정부�
 - 샘플데이터 insert<br>
 - Geoserver 설정<br><br>
 
-### 3. 프로젝트추가 및 빌드 ###
-- 프로젝트 추가
--	
+### 3. 프로젝트 빌드 ###
+- 프로젝트 추가<br>
+- 프로젝트 설정<br>
+- Maven 설정 및 빌드<br><br>
+
+* 자세한내용은 [OpenGDS(Builder-Validator) 전자정부 호환성 연동가이드](https://github.com/ODTBuilder/BuilderValidator-v1.0-egv/blob/master/OpenGDS(Builder-Validator)%20%EC%A0%84%EC%9E%90%EC%A0%95%EB%B6%80%20%ED%98%B8%ED%99%98%EC%84%B1%20%EC%97%B0%EB%8F%99%EA%B0%80%EC%9D%B4%EB%93%9C%20.pdf) 을 참조하십시오.
+
 
 
 ## 연구기관
