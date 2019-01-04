@@ -1,8 +1,10 @@
 
 
-BuilderValidator-v1.0-egv <br>(공간자료 검수편집도구 v1.0 전자정부프레임워크 기반 프로젝트)
+BuilderValidator-v1.0-egv <br>
 =======
-이 프로젝트는 [3D Tiles v1.0](https://github.com/AnalyticalGraphicsInc/3d-tiles/releases/tag/1.0)와 [3D Tiles v1.0](https://github.com/AnalyticalGraphicsInc/3d-tiles/releases/tag/1.0)의 통합프로젝트 입니다.
+(공간자료 검수편집도구 v1.0 전자정부프레임워크 기반 프로젝트)
+
+이 프로젝트는 [3D Tiles v1.0](https://github.com/AnalyticalGraphicsInc/3d-tiles/releases/tag/1.0)와 [3D Tiles v1.0](https://github.com/AnalyticalGraphicsInc/3d-tiles/releases/tag/1.0)의 통합프로젝트 입니다.<br>
 해당프로젝트는 Web기반의 공간정보 검수편집을 지원하며 전자정부 표준프레임워크 3.7에 대한 호환(레벨2)성 인증을 받았습니다.
 
 ## 공간정보 검수편집도구 v1.0 아키텍처
