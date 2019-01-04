@@ -28,13 +28,13 @@ BuilderValidator-v1.0-egv<br>(공간자료 검수편집도구 v1.0 전자정부�
 -	공간정보 데이터 서버	Geoserver / 2.7.6<br>
 -	공간정보 데이터베이스	PostgreSQL / 9.4, PostGIS / 2.1<br>
 - 클라이언트	개발언어	HTML / 5, JavaScript / ECMA 5<br>
--	웹 프레임워크	jQuery / 2.2.2<br><br>
+-	웹 프레임워크	jQuery / 2.2.2<br>
 
 ### 3.2 사전설치 및 DB생성 ###
 - PostgreSQL, PostGIS, Geoserver설치<br>
 -	Database 및 테이블생성(설정포함)<br>
 - 샘플데이터 insert<br>
-- Geoserver 설정<br><br>
+- Geoserver 설정<br>
 
 ### 3.3 프로젝트 빌드 ###
 - 프로젝트 추가<br>
